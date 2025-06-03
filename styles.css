@@ -87,3 +87,12 @@ button{
     align-items:center;
     gap:4%;
 }
+.attribution{
+    font-family: "Montserrat", sans-serif;
+    font-weight:500;
+}
+#king{
+    font-family: "Fraunces", sans-serif;
+    font-weight:700;
+    color:hsl(158, 36%, 37%);
+}
