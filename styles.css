@@ -37,6 +37,7 @@ body {
         border-top-right-radius: 3%;
         border-bottom-right-radius:3%;
         padding-right:8%;
+        color:hsl(228, 12%, 48%);
     }
 
     main {
@@ -172,7 +173,8 @@ body {
         /* border:1px solid red; */
         padding: 1% 5%;
         background-color:hsl(0, 0%, 100%);
-    }
+        color:hsl(228, 12%, 48%);
+        }
 
     #first {
         letter-spacing: 4px;
