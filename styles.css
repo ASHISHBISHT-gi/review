@@ -255,7 +255,7 @@ body {
     .attribution{
         display:inline;
         position: absolute;
-        /* bottom:-3%; */
+        bottom:-1%;
         left:9%;
         /* top:50%; */
         font-family: "Montserrat", sans-serif;
