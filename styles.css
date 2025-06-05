@@ -21,7 +21,7 @@ body {
 @media screen and (min-width: 73.125em) {
     .image {
         /* height:10vw; */
-        width: 45%;
+        width: 42%;
         box-sizing:border-box;
         background-size: cover;
         background-position: center;
@@ -30,13 +30,13 @@ body {
         background-image: url("images/image-product-desktop.jpg");
     }
     .review {
-        width: 45%;
-        padding: 4% 5%;
         box-sizing:border-box;
+        width: 42%;
+        padding: 4% 7%;
         background-color:hsl(0, 0%, 100%);
         border-top-right-radius: 3%;
         border-bottom-right-radius:3%;
-        padding-right:8%;
+        /* padding-right:8%; */
         color:hsl(228, 12%, 48%);
     }
 
@@ -97,16 +97,6 @@ body {
         color: hsl(228, 12%, 48%);
     }
 
-    button {
-        display: block;
-        width: 100%;
-        height: 50px;
-        margin: 5% 0;
-        border-radius: 10px;
-        background-color: hsl(158, 36%, 37%);
-        border: 0;
-    }
-
     #cart {
         font-weight: 700;
         font-size: 14px;
@@ -145,8 +135,8 @@ body {
         color: hsl(228, 12%, 48%);
     }
     #sec{
-        padding-right:3.125em;
-        font-size: 14px;
+        /* padding-right:3.125em; */
+        font-size: 1em;
         line-height: 1.8;
         font-weight: 500;
         font-family: "Montserrat", sans-serif;
@@ -157,11 +147,16 @@ body {
 /* mobile and tablets */
 
 @media screen and (max-width:73.0625em) {
+    body{
+        height:100svh;
+    }
     .image {
         height: 250px;
         width: 100%;
-        border-radius: 3%;
+        /* border-radius: 3%; */
         background-size: cover;
+        border-top-left-radius: 4%;
+        border-top-right-radius:4%;
         background-position: center;
         background-image: url("images/image-product-mobile.jpg");
     }
@@ -175,15 +170,17 @@ body {
     }
 
     main {
-        /* border:1px solid green; */
+        border:1px solid green;
         padding: 6%;
     }
 
     .review {
         /* border:1px solid red; */
-        padding: 1% 5%;
+        padding: 1% 5.5%;
         background-color:hsl(0, 0%, 100%);
         color:hsl(228, 12%, 48%);
+        border-bottom-right-radius:4%;
+        border-bottom-left-radius:4%;
         }
 
     #first {
@@ -245,7 +242,7 @@ body {
         gap: 4%;
     }
 
-    .attribution {
+    /* .attribution {
         font-family: "Montserrat", sans-serif;
         font-weight: 500;
     }
@@ -254,5 +251,21 @@ body {
         font-family: "Fraunces", sans-serif;
         font-weight: 700;
         color: hsl(158, 36%, 37%);
+    } */
+    .attribution{
+        display:inline;
+        position: absolute;
+        bottom:-3%;
+        left:9%;
+        /* top:50%; */
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+    }
+    #king {
+        font-family: "Fraunces", sans-serif;
+        font-weight: 700;
+        font-size:10px;
+        color: hsl(158, 36%, 37%);
+
     }
 }
